@@ -1,0 +1,8 @@
+Task  #482B (Normalization)
+
+Issue: Input variations like "CARD" or "Card" didn’t match "card".
+
+Fix:
+- Applied .strip().lower() to normalize input.
+
+PEP8 principle: Explicit and consistent transformations improve readability and reliability.

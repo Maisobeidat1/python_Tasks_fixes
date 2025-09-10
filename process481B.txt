@@ -1,0 +1,9 @@
+ Ticket #481B (Variables & Strings)
+
+Issue: Output printed without proper formatting (e.g., "HelloAlex").
+
+Fix:
+- Used f-strings with proper spacing for correct output.
+- Applied snake_case naming for variables following PEP8 conventions.
+
+Improves readability and ensures consistent, well-formatted output.

@@ -1,0 +1,10 @@
+Ticket #482 (Conditionals syntax)
+
+Issue: Wrong operator (= instead of ==) and inconsistent indentation.
+
+Fix:
+- Replaced = with == for correct comparison.
+- Standardized indentation to 4 spaces (PEP8 compliant).
+- Normalized input using .lower() before comparison.
+
+Ensures correct logic, readability, and PEP8 compliance.

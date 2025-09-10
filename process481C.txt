@@ -1,0 +1,8 @@
+ Ticket #481C (Input hygiene)
+
+Issue: Extra spaces in customer name broke receipt layout.
+
+Fix:
+- Applied .strip() to remove leading/trailing whitespace.
+- Used descriptive variable names (customer_name) following PEP8 conventions.
+

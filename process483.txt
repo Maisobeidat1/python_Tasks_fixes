@@ -1,0 +1,12 @@
+ Ticket #483 (Imports hygiene)
+
+Issue: Mixed imports on one line and incorrect grouping.
+
+Fix:
+- Separated imports into one per line.
+- Grouped imports according to PEP8 standards:
+   1. Standard library
+   2. Third-party packages
+   3. Local packages
+
+Improves readability and maintainability of the code.

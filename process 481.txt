@@ -1,0 +1,9 @@
+ Ticket #481 (Production crisis)
+
+Issue: String concatenation caused crashes and spacing issues.
+
+Fix: 
+- Replaced concatenation with f-strings for clearer, safer, and PEP8-compliant code.
+- Added .strip() to clean user input.
+
+Improves code readability and prevents runtime errors.
